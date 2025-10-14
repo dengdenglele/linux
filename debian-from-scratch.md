@@ -12,6 +12,12 @@ How to setup a minimal debian installation without bloat
 - Select "No" when asked for "Configuring popularity-contest"
 - Do not install anything extra when asked (uncheck everything)
 
+# Use "Advanced Options ..., Expert install"
+
+- Follow this Tutorial on [YouTube](https://youtu.be/pv6Px6eATho?t=270), with sparse commentary
+  - Also covers resizing tty
+  - And how to set up zram ([ZRam - Debian Wiki](https://wiki.debian.org/ZRam))
+
 # [TTY environment](https://askubuntu.com/questions/66195/what-is-a-tty-and-how-do-i-access-a-tty)
 
 Not much to see, only darkness. And a command line.
