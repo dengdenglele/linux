@@ -167,8 +167,8 @@ sudo upower -i $(upower -e | grep 'BAT')
 cat /sys/class/power_supply/BAT0/charge_start_threshold
 cat /sys/class/power_supply/BAT0/charge_stop_threshold
 
-# Set the charging thresholds to 60/80
-echo 60 | sudo tee /sys/class/power_supply/BAT0/charge_start_threshold
+# Set the charging thresholds to 75/80
+echo 75 | sudo tee /sys/class/power_supply/BAT0/charge_start_threshold
 echo 80 | sudo tee /sys/class/power_supply/BAT0/charge_stop_threshold
 ```
 
