@@ -17,6 +17,10 @@ How to setup a minimal debian installation without bloat
 - Follow this Tutorial on [YouTube](https://youtu.be/pv6Px6eATho?t=270), with sparse commentary
   - Also covers resizing tty
   - And how to set up zram ([ZRam - Debian Wiki](https://wiki.debian.org/ZRam))
+ 
+- Minimal "Expert Install" videos, with detailed commentary
+  - [Debian 12 Bookworm Minimal Install w/BTRFS](https://www.youtube.com/watch?v=MoWApyUb5w8)
+  - [Debian 13 Trixie Minimal Install w/BTRFS](https://www.youtube.com/watch?v=_zC4S7TA1GI)
 
 # [TTY environment](https://askubuntu.com/questions/66195/what-is-a-tty-and-how-do-i-access-a-tty)
 
