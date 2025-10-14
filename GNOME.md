@@ -80,7 +80,7 @@ gsettings set org.gnome.settings-daemon.plugins.power power-button-action 'nothi
 gsettings set org.gnome.desktop.interface show-battery-percentage 'true'
 
 # Accessibility
-gsettings set org.gnome.desktop.interface cursor-size 48
+gsettings set org.gnome.desktop.interface cursor-size 32
 gsettings set org.gnome.desktop.interface text-scaling-factor 1.25
 gsettings set org.gnome.desktop.interface locate-pointer true
 gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 15
@@ -95,6 +95,7 @@ gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:minimize,m
 # Keyboard
 gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('xkb', 'de')]"
 #gsettings set org.gnome.desktop.input-sources xkb-options "['caps:ctrl_modifier']" ##### be careful, do not have CAPS LOCK enabled, when triggering this command!!!
+#gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape']" ##### be careful, do not have CAPS LOCK enabled, when triggering this command!!!
 
 # Shortcuts
 ## Window manager
