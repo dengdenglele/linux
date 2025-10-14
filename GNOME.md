@@ -47,11 +47,13 @@ Append additional sources the sources.list file
 ## Set up GNOME settings with terminal
 
 ```bash
-# How to reset any gnome settings back to default value
+# How to RESET any gnome settings back to default value
 gsettings reset org.gnome.desktop.input-sources xkb-options
 gsettings reset org.gnome.desktop.peripherals.touchpad natural-scroll
 gsettings reset org.gnome.desktop.interface show-battery-percentage
+```
 
+```bash
 # Mouse & Touchpad
 gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
 gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll false
@@ -100,14 +102,14 @@ gsettings set org.gnome.desktop.wm.keybindings switch-applications "['<Super>Tab
 gsettings set org.gnome.desktop.wm.keybindings switch-applications-backward "['<Shift><Super>Tab']"
 gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Alt>Tab']"
 gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Shift><Alt>Tab']"
-gsettings set org.gnome.desktop.wm.keybindings show-desktop "['<Super>d']"
+gsettings set org.gnome.desktop.wm.keybindings show-desktop "['<Super>d']" # inspired by Windows + (D)
 
 ## Launchers
-gsettings set org.gnome.settings-daemon.plugins.media-keys home "['<Super>e']"
-gsettings set org.gnome.settings-daemon.plugins.media-keys calculator "['<Super>c']"
-gsettings set org.gnome.settings-daemon.plugins.media-keys email "['<Super>b']"
-gsettings set org.gnome.settings-daemon.plugins.media-keys help []
-gsettings set org.gnome.settings-daemon.plugins.media-keys www "['<Super>f']"
+gsettings set org.gnome.settings-daemon.plugins.media-keys home "['<Super>e']" # inspired by Windows (E)xplorer
+gsettings set org.gnome.settings-daemon.plugins.media-keys calculator "['<Super>c']" # (C)alculator
+gsettings set org.gnome.settings-daemon.plugins.media-keys email "['<Super>b']" # Thunder(b)ird
+gsettings set org.gnome.settings-daemon.plugins.media-keys help [] # leave it blank
+gsettings set org.gnome.settings-daemon.plugins.media-keys www "['<Super>f']" # (F)irefox
 
 ## Volume
 gsettings set org.gnome.settings-daemon.plugins.media-keys volume-down "['<Super><Alt>z']"
