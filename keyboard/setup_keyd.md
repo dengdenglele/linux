@@ -2,7 +2,8 @@
 
 - [Theory: Cursor keys belong at the center of your keyboard, DEPRECATED due to Xorg](https://tonsky.me/blog/cursor-keys/)
 - TL;DR: Remap CapsLock + IJKL (or WASD) to act as arrow keys
-
+- [Mapping Caps-Lock to Esc is life changing](https://www.reddit.com/r/vim/comments/1442ads/mapping_capslock_to_esc_is_life_changing/)
+  
 # setup 60% keyboard
 
 - [Install keyd (wayland) from source](https://github.com/rvaiya/keyd):
